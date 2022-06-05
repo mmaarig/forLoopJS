@@ -17,7 +17,7 @@
 //     }
 // }
 
-function addNumbers() {
+function printTable() {
     let number;
     let result = "";
     let number2;
