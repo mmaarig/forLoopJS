@@ -1,0 +1,43 @@
+button {
+    margin: 20px;
+    background-color: #12658b;
+    border: none;
+    color: #9df8fc;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  p{
+    color: #27186b;
+  }
+
+  #number {
+    width: 12%;
+    padding: 12px 20px;
+    margin: 8px 0px 0px 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #number2 {
+    width: 12%;
+    padding: 12px 20px;
+    margin: 8px 0px 0px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #result {
+    background-color: #ddfcfd;
+    width: 13%;
+    border: 1px solid #ccc; 
+    border-radius: 4px;  
+    box-sizing: border-box; 
+  }
