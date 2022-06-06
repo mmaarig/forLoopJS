@@ -1,3 +1,11 @@
+body {
+  width: 98vw;
+  height: 95vh;
+  background-color: #c1fcff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+
 button {
     margin: 20px;
     background-color: #12658b;
@@ -15,29 +23,47 @@ button {
   }
 
   #number {
-    width: 12%;
+    width: 22%;
     padding: 12px 20px;
     margin: 8px 0px 0px 50px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    text-align: center;
   }
 
   #number2 {
-    width: 12%;
+    width: 22%;
     padding: 12px 20px;
     margin: 8px 0px 0px 20px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    text-align: center;
   }
 
   #result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*    margin: 0px 0px 0px 0px; */
+    padding: 0% 0% 0% 0%;
     background-color: #ddfcfd;
-    width: 13%;
+    width: 33%;
     border: 1px solid #ccc; 
     border-radius: 4px;  
     box-sizing: border-box; 
+  }
+  .container{
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  h1 {
+    color: #12658b;
   }
